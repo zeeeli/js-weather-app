@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sacramento</h1>
+      <h2>CA, USA</h2>
+      <input type="text" id="city" placeholder="Enter City" />
+      <div class="temp">
+        <h3>62</h3>
+        <span id="fah" class="active">°F</span>
+        <span>|</span>
+        <span id="cel">°C</span>
+      </div>
+      <div class="description">
+        <div>
+          <span id="high">H:62°</span> <br />
+          <span id="low">L:39°</span>
+        </div>
+        <div id="weather">
+          <span>Overcast Clouds</span> <br />
+          <img
+            src="#"
+            alt="weather icon"
+            style="height: 30px; width: 30px"
+            id="weather-image"
+          />
+        </div>
+        <div>
+          <h4>Wind:</h4>
+          <span id="wind">6.87mph</span>
+        </div>
+        <div>
+          <h4>Humidity:</h4>
+          <span id="humidity">93%</span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer-image">
+        <a href="https://github.com/zeeeli"
+          ><img
+            src="./images/github.png"
+            alt="github logo"
+            style="width: 25px; height: 25px"
+        /></a>
+      </div>
+      <div id="footer-text">
+        <a href="https://github.com/zeeeli"> Written by zeeeli © 2023</a>
+      </div>
+    </footer>
+  </body>
+</html>
