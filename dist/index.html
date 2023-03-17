@@ -11,21 +11,21 @@
   <body>
     <div class="container">
       <h1>Sacramento</h1>
-      <h2>CA, USA</h2>
-      <input type="text" id="city" placeholder="Enter City" />
+      <h2>US</h2>
+      <input type="text" id="city" placeholder="Search City..." />
       <div class="temp">
         <h3>62</h3>
-        <span id="fah" class="active">°F</span>
+        <span id="imperial" class="active">°F</span>
         <span>|</span>
-        <span id="cel">°C</span>
+        <span id="metric">°C</span>
       </div>
       <div class="description">
         <div>
-          <span id="high">H:62°</span> <br />
-          <span id="low">L:39°</span>
+          <span>H:<span id="high">62</span>°</span> <br />
+          <span>L:<span id="low">39</span>°</span>
         </div>
         <div id="weather">
-          <span>Overcast Clouds</span> <br />
+          <h4 id="weather-des"></h4>
           <img
             src="#"
             alt="weather icon"
@@ -35,7 +35,7 @@
         </div>
         <div>
           <h4>Wind:</h4>
-          <span id="wind">6.87mph</span>
+          <span id="wind">6.87 mph</span>
         </div>
         <div>
           <h4>Humidity:</h4>

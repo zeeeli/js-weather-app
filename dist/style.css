@@ -46,8 +46,7 @@ body {
   background-repeat: no-repeat;
   width: 100vh;
   height: 100vh;
-  background-image: url("https://i.redd.it/465u2lmafag51.jpg");
-
+  /* background-image: url("images/cloud-day.jpg"); */
   display: flex;
   flex-direction: column;
 }
@@ -80,14 +79,15 @@ h2 {
   width: 300px;
   align-self: center;
   border-radius: 15px;
-  background-color: rgb(45, 46, 46, 0.8);
+  background-color: rgb(45, 46, 46, 0.5);
   padding-left: 10px;
   font-size: 1.2rem;
 }
+
 .temp {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 h3 {
@@ -97,13 +97,13 @@ h3 {
 }
 
 .temp > span {
-  font-size: 2rem;
-  padding-top: 60px;
-  color: rgb(45, 46, 46, 1);
+  font-size: 1.7rem;
+  padding-top: 40px;
+  color: rgb(103, 104, 104);
 }
 
-#fah,
-#cel {
+#imperial,
+#metric {
   cursor: pointer;
 }
 
@@ -119,25 +119,23 @@ h3 {
   font-size: 1rem;
 }
 
+.description > div {
+  text-align: center;
+}
+
 .container > div > div {
-  border-right: 1px solid #f9f9f9;
   height: 50px;
   padding-right: 10px;
   padding-left: 10px;
   text-align: center;
 }
 
+.container > div > div + div {
+  border-left: 1px solid #f9f9f9;
+}
+
 h4 {
   font-weight: 400;
-}
-
-.container > div > :first-child {
-  padding-left: 0;
-}
-
-.container > div > :last-child {
-  border: none;
-  padding-right: 0;
 }
 
 footer {
@@ -150,4 +148,5 @@ footer {
   gap: 20px;
   color: #f9f9f9;
   font-weight: 200;
+  background-color: rgb(45, 46, 46, 0.3);
 }
