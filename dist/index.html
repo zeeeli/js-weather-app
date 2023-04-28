@@ -12,7 +12,12 @@
     <div class="container">
       <h1></h1>
       <h2></h2>
-      <input type="text" id="city" placeholder="Search City..." />
+      <input
+        type="text"
+        id="city"
+        placeholder="Search City..."
+        aria-label="City search bar"
+      />
       <div class="temp">
         <h3></h3>
         <span id="imperial" class="active">°F</span>
@@ -44,17 +49,16 @@
       </div>
     </div>
     <footer>
-      <div id="footer-image">
-        <a href="https://github.com/zeeeli"
-          ><img
+      <a href="https://github.com/zeeeli" id="github-link">
+        <div id="footer-image">
+          <img
             src="./images/github.png"
             alt="github logo"
             style="width: 25px; height: 25px"
-        /></a>
-      </div>
-      <div id="footer-text">
-        <a href="https://github.com/zeeeli"> Written by zeeeli © 2023</a>
-      </div>
+          />
+        </div>
+        <div id="footer-text">Written by zeeeli © 2023</div>
+      </a>
     </footer>
   </body>
 </html>

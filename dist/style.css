@@ -147,6 +147,12 @@ footer {
   background-color: rgb(45, 46, 46, 0.3);
 }
 
+#github-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 /* Loading effect CSS */
 .lds-ripple {
   display: inline-block;
